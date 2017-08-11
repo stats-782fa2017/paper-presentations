@@ -1,0 +1,252 @@
+
+@InProceedings{pmlr-v70-yen17a,
+  title = 	 {Latent Feature Lasso},
+  author = 	 {Ian En-Hsu Yen and Wei-Cheng Lee and Sung-En Chang and Arun Sai Suggala and Shou-De Lin and Pradeep Ravikumar},
+  booktitle = 	 {Proceedings of the 34th International Conference on Machine Learning},
+  pages = 	 {3949--3957},
+  year = 	 {2017},
+  editor = 	 {Doina Precup and Yee Whye Teh},
+  volume = 	 {70},
+  series = 	 {Proceedings of Machine Learning Research},
+  address = 	 {International Convention Centre, Sydney, Australia},
+  month = 	 {06--11 Aug},
+  publisher = 	 {PMLR},
+  pdf = 	 {http://proceedings.mlr.press/v70/yen17a/yen17a.pdf},
+  url = 	 {http://proceedings.mlr.press/v70/yen17a.html},
+  abstract = 	 {The latent feature model (LFM), proposed in (Griffiths \& Ghahramani, 2005), but possibly with earlier origins, is a generalization of a mixture model, where each instance is generated not from a single latent class but from a combination of \emph{latent features}. Thus, each instance has an associated latent binary feature incidence vector indicating the presence or absence of a feature. Due to its combinatorial nature, inference of LFMs is considerably intractable, and accordingly, most of the attention has focused on nonparametric LFMs, with priors such as the Indian Buffet Process (IBP) on infinite binary matrices. Recent efforts to tackle this complexity either still have computational complexity that is exponential, or sample complexity that is high-order polynomial w.r.t. the number of latent features. In this paper, we address this outstanding problem of tractable estimation of LFMs via a novel atomic-norm regularization, which gives an algorithm with polynomial run-time and sample complexity without impractical assumptions on the data distribution.}
+}
+
+
+@InProceedings{pmlr-v70-ravanbakhsh17a,
+  title = 	 {Equivariance Through Parameter-Sharing},
+  author = 	 {Siamak Ravanbakhsh and Jeff Schneider and Barnab{\'a}s P{\'o}czos},
+  booktitle = 	 {Proceedings of the 34th International Conference on Machine Learning},
+  pages = 	 {2892--2901},
+  year = 	 {2017},
+  editor = 	 {Doina Precup and Yee Whye Teh},
+  volume = 	 {70},
+  series = 	 {Proceedings of Machine Learning Research},
+  address = 	 {International Convention Centre, Sydney, Australia},
+  month = 	 {06--11 Aug},
+  publisher = 	 {PMLR},
+  pdf = 	 {http://proceedings.mlr.press/v70/ravanbakhsh17a/ravanbakhsh17a.pdf},
+  url = 	 {http://proceedings.mlr.press/v70/ravanbakhsh17a.html},
+  abstract = 	 {We propose to study equivariance in deep neural networks through parameter symmetries. In particular, given a group G that acts discretely on the input and output of a standard neural network layer, we show that its equivariance is linked to the symmetry group of network parameters. We then propose two parameter-sharing scheme to induce the desirable symmetry on the parameters of the neural network. Under some conditions on the action of G, our procedure for tying the parameters achieves G-equivariance and guarantees sensitivity to all other permutation groups outside of G.}
+}
+
+
+@InProceedings{pmlr-v70-lei17b,
+  title = 	 {Doubly Greedy Primal-Dual Coordinate Descent for Sparse Empirical Risk Minimization},
+  author = 	 {Qi Lei and Ian En-Hsu Yen and Chao-yuan Wu and Inderjit S. Dhillon and Pradeep Ravikumar},
+  booktitle = 	 {Proceedings of the 34th International Conference on Machine Learning},
+  pages = 	 {2034--2042},
+  year = 	 {2017},
+  editor = 	 {Doina Precup and Yee Whye Teh},
+  volume = 	 {70},
+  series = 	 {Proceedings of Machine Learning Research},
+  address = 	 {International Convention Centre, Sydney, Australia},
+  month = 	 {06--11 Aug},
+  publisher = 	 {PMLR},
+  pdf = 	 {http://proceedings.mlr.press/v70/lei17b/lei17b.pdf},
+  url = 	 {http://proceedings.mlr.press/v70/lei17b.html},
+  abstract = 	 {We consider the popular problem of sparse empirical risk minimization with linear predictors and a large number of both features and observations. With a convex-concave saddle point objective reformulation, we propose a Doubly Greedy Primal-Dual Coordinate Descent algorithm that is able to exploit sparsity in both primal and dual variables. It enjoys a low cost per iteration and our theoretical analysis shows that it converges linearly with a good iteration complexity, provided that the set of primal variables is sparse. We then extend this algorithm further to leverage active sets. The resulting new algorithm is even faster, and experiments on large-scale Multi-class data sets show that our algorithm achieves up to 30 times speedup on several state-of-the-art optimization methods.}
+}
+
+
+@InProceedings{pmlr-v70-krishnamurthy17a,
+  title = 	 {Active Learning for Cost-Sensitive Classification},
+  author = 	 {Akshay Krishnamurthy and Alekh Agarwal and Tzu-Kuo Huang and Daum{\'e}, III, Hal and John Langford},
+  booktitle = 	 {Proceedings of the 34th International Conference on Machine Learning},
+  pages = 	 {1915--1924},
+  year = 	 {2017},
+  editor = 	 {Doina Precup and Yee Whye Teh},
+  volume = 	 {70},
+  series = 	 {Proceedings of Machine Learning Research},
+  address = 	 {International Convention Centre, Sydney, Australia},
+  month = 	 {06--11 Aug},
+  publisher = 	 {PMLR},
+  pdf = 	 {http://proceedings.mlr.press/v70/krishnamurthy17a/krishnamurthy17a.pdf},
+  url = 	 {http://proceedings.mlr.press/v70/krishnamurthy17a.html},
+  abstract = 	 {We design an active learning algorithm for cost-sensitive multiclass classification: problems where different errors have different costs. Our algorithm, COAL, makes predictions by regressing to each label’s cost and predicting the smallest. On a new example, it uses a set of regressors that perform well on past data to estimate possible costs for each label. It queries only the labels that could be the best, ignoring the sure losers. We prove COAL can be efficiently implemented for any regression family that admits squared loss optimization; it also enjoys strong guarantees with respect to predictive performance and labeling effort. Our experiment with COAL show significant improvements in labeling effort and test cost over passive and active baselines.}
+}
+
+
+@InProceedings{pmlr-v70-kale17a,
+  title = 	 {Adaptive Feature Selection: Computationally Efficient Online Sparse Linear Regression under {RIP}},
+  author = 	 {Satyen Kale and Zohar Karnin and Tengyuan Liang and D{\'a}vid P{\'a}l},
+  booktitle = 	 {Proceedings of the 34th International Conference on Machine Learning},
+  pages = 	 {1780--1788},
+  year = 	 {2017},
+  editor = 	 {Doina Precup and Yee Whye Teh},
+  volume = 	 {70},
+  series = 	 {Proceedings of Machine Learning Research},
+  address = 	 {International Convention Centre, Sydney, Australia},
+  month = 	 {06--11 Aug},
+  publisher = 	 {PMLR},
+  pdf = 	 {http://proceedings.mlr.press/v70/kale17a/kale17a.pdf},
+  url = 	 {http://proceedings.mlr.press/v70/kale17a.html},
+  abstract = 	 {Online sparse linear regression is an online problem where an algorithm repeatedly chooses a subset of coordinates to observe in an adversarially chosen feature vector, makes a real-valued prediction, receives the true label, and incurs the squared loss. The goal is to design an online learning algorithm with sublinear regret to the best sparse linear predictor in hindsight. Without any assumptions, this problem is known to be computationally intractable. In this paper, we make the assumption that data matrix satisfies restricted isometry property, and show that this assumption leads to computationally efficient algorithms with sublinear regret for two variants of the problem. In the first variant, the true label is generated according to a sparse linear model with additive Gaussian noise. In the second, the true label is chosen adversarially.}
+}
+
+
+@InProceedings{pmlr-v70-loukas17a,
+  title = 	 {How Close Are the Eigenvectors of the Sample and Actual Covariance Matrices?},
+  author = 	 {Andreas Loukas},
+  booktitle = 	 {Proceedings of the 34th International Conference on Machine Learning},
+  pages = 	 {2228--2237},
+  year = 	 {2017},
+  editor = 	 {Doina Precup and Yee Whye Teh},
+  volume = 	 {70},
+  series = 	 {Proceedings of Machine Learning Research},
+  address = 	 {International Convention Centre, Sydney, Australia},
+  month = 	 {06--11 Aug},
+  publisher = 	 {PMLR},
+  pdf = 	 {http://proceedings.mlr.press/v70/loukas17a/loukas17a.pdf},
+  url = 	 {http://proceedings.mlr.press/v70/loukas17a.html},
+  abstract = 	 {How many samples are sufficient to guarantee that the eigenvectors of the sample covariance matrix are close to those of the actual covariance matrix? For a wide family of distributions, including distributions with finite second moment and sub-gaussian distributions supported in a centered Euclidean ball, we prove that the inner product between eigenvectors of the sample and actual covariance matrices decreases proportionally to the respective eigenvalue distance and the number of samples. Our findings imply \emph{non-asymptotic} concentration bounds for eigenvectors and eigenvalues and carry strong consequences for the non-asymptotic analysis of PCA and its applications. For instance, they provide conditions for separating components estimated from $O(1)$ samples and show that even few samples can be sufficient to perform dimensionality reduction, especially for low-rank covariances.}
+}
+
+
+@InProceedings{pmlr-v70-wang17f,
+  title = 	 {Efficient Distributed Learning with Sparsity},
+  author = 	 {Jialei Wang and Mladen Kolar and Nathan Srebro and Tong Zhang},
+  booktitle = 	 {Proceedings of the 34th International Conference on Machine Learning},
+  pages = 	 {3636--3645},
+  year = 	 {2017},
+  editor = 	 {Doina Precup and Yee Whye Teh},
+  volume = 	 {70},
+  series = 	 {Proceedings of Machine Learning Research},
+  address = 	 {International Convention Centre, Sydney, Australia},
+  month = 	 {06--11 Aug},
+  publisher = 	 {PMLR},
+  pdf = 	 {http://proceedings.mlr.press/v70/wang17f/wang17f.pdf},
+  url = 	 {http://proceedings.mlr.press/v70/wang17f.html},
+  abstract = 	 {We propose a novel, efficient approach for distributed sparse learning with observations randomly partitioned across machines. In each round of the proposed method, worker machines compute the gradient of the loss on local data and the master machine solves a shifted $\ell_1$ regularized loss minimization problem. After a number of communication rounds that scales only logarithmically with the number of machines, and independent of other parameters of the problem, the proposed approach provably matches the estimation error bound of centralized methods.}
+}
+
+
+@InProceedings{pmlr-v70-singh17a,
+  title = 	 {Nonparanormal Information Estimation},
+  author = 	 {Shashank Singh and Barnab{\'a}s P{\'o}czos},
+  booktitle = 	 {Proceedings of the 34th International Conference on Machine Learning},
+  pages = 	 {3210--3219},
+  year = 	 {2017},
+  editor = 	 {Doina Precup and Yee Whye Teh},
+  volume = 	 {70},
+  series = 	 {Proceedings of Machine Learning Research},
+  address = 	 {International Convention Centre, Sydney, Australia},
+  month = 	 {06--11 Aug},
+  publisher = 	 {PMLR},
+  pdf = 	 {http://proceedings.mlr.press/v70/singh17a/singh17a.pdf},
+  url = 	 {http://proceedings.mlr.press/v70/singh17a.html},
+  abstract = 	 {We study the problem of using i.i.d. samples from an unknown multivariate probability distribution p to estimate the mutual information of p. This problem has recently received attention in two settings: (1) where p is assumed to be Gaussian and (2) where p is assumed only to lie in a large nonparametric smoothness class. Estimators proposed for the Gaussian case converge in high dimensions when the Gaussian assumption holds, but are brittle, failing dramatically when p is not Gaussian, while estimators proposed for the nonparametric case fail to converge with realistic sample sizes except in very low dimension. Hence, there is a lack of robust mutual information estimators for many realistic data. To address this, we propose estimators for mutual information when p is assumed to be a nonparanormal (or Gaussian copula) model, a semiparametric compromise between Gaussian and nonparametric extremes. Using theoretical bounds and experiments, we show these estimators strike a practical balance between robustness and scalability.}
+}
+
+
+@InProceedings{pmlr-v70-wang17c,
+  title = 	 {Sketched Ridge Regression: Optimization Perspective, Statistical Perspective, and Model Averaging},
+  author = 	 {Shusen Wang and Alex Gittens and Michael W. Mahoney},
+  booktitle = 	 {Proceedings of the 34th International Conference on Machine Learning},
+  pages = 	 {3608--3616},
+  year = 	 {2017},
+  editor = 	 {Doina Precup and Yee Whye Teh},
+  volume = 	 {70},
+  series = 	 {Proceedings of Machine Learning Research},
+  address = 	 {International Convention Centre, Sydney, Australia},
+  month = 	 {06--11 Aug},
+  publisher = 	 {PMLR},
+  pdf = 	 {http://proceedings.mlr.press/v70/wang17c/wang17c.pdf},
+  url = 	 {http://proceedings.mlr.press/v70/wang17c.html},
+  abstract = 	 {We address the statistical and optimization impacts of using classical sketch versus Hessian sketch to solve approximately the Matrix Ridge Regression (MRR) problem. Prior research has considered the effects of classical sketch on least squares regression (LSR), a strictly simpler problem. We establish that classical sketch has a similar effect upon the optimization properties of MRR as it does on those of LSR—namely, it recovers nearly optimal solutions. In contrast, Hessian sketch does not have this guarantee; instead, the approximation error is governed by a subtle interplay between the “mass” in the responses and the optimal objective value. For both types of approximations, the regularization in the sketched MRR problem gives it significantly different statistical properties from the sketched LSR problem. In particular, there is a bias-variance trade-off in sketched MRR that is not present in sketched LSR. We provide upper and lower bounds on the biases and variances of sketched MRR; these establish that the variance is significantly increased when classical sketches are used, while the bias is significantly increased when using Hessian sketches. Empirically, sketched MRR solutions can have risks that are higher by an order-of-magnitude than those of the optimal MRR solutions. We establish theoretically and empirically that model averaging greatly decreases this gap. Thus, in the distributed setting, sketching combined with model averaging is a powerful technique that quickly obtains near-optimal solutions to the MRR problem while greatly mitigating the statistical risks incurred by sketching.}
+}
+
+
+@InProceedings{pmlr-v70-sheffet17a,
+  title = 	 {Differentially Private Ordinary Least Squares},
+  author = 	 {Or Sheffet},
+  booktitle = 	 {Proceedings of the 34th International Conference on Machine Learning},
+  pages = 	 {3105--3114},
+  year = 	 {2017},
+  editor = 	 {Doina Precup and Yee Whye Teh},
+  volume = 	 {70},
+  series = 	 {Proceedings of Machine Learning Research},
+  address = 	 {International Convention Centre, Sydney, Australia},
+  month = 	 {06--11 Aug},
+  publisher = 	 {PMLR},
+  pdf = 	 {http://proceedings.mlr.press/v70/sheffet17a/sheffet17a.pdf},
+  url = 	 {http://proceedings.mlr.press/v70/sheffet17a.html},
+  abstract = 	 {Linear regression is one of the most prevalent techniques in machine learning; however, it is also common to use linear regression for its explanatory capabilities rather than label prediction. Ordinary Least Squares (OLS) is often used in statistics to establish a correlation between an attribute (e.g. gender) and a label (e.g. income) in the presence of other (potentially correlated) features. OLS assumes a particular model that randomly generates the data, and derives t-values — representing the likelihood of each real value to be the true correlation. Using t-values, OLS can release a confidence interval, which is an interval on the reals that is likely to contain the true correlation; and when this interval does not intersect the origin, we can reject the null hypothesis as it is likely that the true correlation is non-zero. Our work aims at achieving similar guarantees on data under differentially private estimators. First, we show that for well-spread data, the Gaussian Johnson-Lindenstrauss Transform (JLT) gives a very good approximation of t-values; secondly, when JLT approximates Ridge regression (linear regression with $l_2$-regularization) we derive, under certain conditions, confidence intervals using the projected data; lastly, we derive, under different conditions, confidence intervals for the “Analyze Gauss” algorithm (Dwork et al 2014).}
+}
+
+
+@InProceedings{pmlr-v70-shalit17a,
+  title = 	 {Estimating individual treatment effect: generalization bounds and algorithms},
+  author = 	 {Uri Shalit and Fredrik D. Johansson and David Sontag},
+  booktitle = 	 {Proceedings of the 34th International Conference on Machine Learning},
+  pages = 	 {3076--3085},
+  year = 	 {2017},
+  editor = 	 {Doina Precup and Yee Whye Teh},
+  volume = 	 {70},
+  series = 	 {Proceedings of Machine Learning Research},
+  address = 	 {International Convention Centre, Sydney, Australia},
+  month = 	 {06--11 Aug},
+  publisher = 	 {PMLR},
+  pdf = 	 {http://proceedings.mlr.press/v70/shalit17a/shalit17a.pdf},
+  url = 	 {http://proceedings.mlr.press/v70/shalit17a.html},
+  abstract = 	 {There is intense interest in applying machine learning to problems of causal inference in fields such as healthcare, economics and education. In particular, individual-level causal inference has important applications such as precision medicine. We give a new theoretical analysis and family of algorithms for predicting individual treatment effect (ITE) from observational data, under the assumption known as strong ignorability. The algorithms learn a “balanced” representation such that the induced treated and control distributions look similar, and we give a novel and intuitive generalization-error bound showing the expected ITE estimation error of a representation is bounded by a sum of the standard generalization-error of that representation and the distance between the treated and control distributions induced by the representation. We use Integral Probability Metrics to measure distances between distributions, deriving explicit bounds for the Wasserstein and Maximum Mean Discrepancy (MMD) distances. Experiments on real and simulated data show the new algorithms match or outperform the state-of-the-art.}
+}
+
+
+@InProceedings{pmlr-v70-jitkrittum17a,
+  title = 	 {An Adaptive Test of Independence with Analytic Kernel Embeddings},
+  author = 	 {Wittawat Jitkrittum and Zolt{\'a}n Szab{\'o} and Arthur Gretton},
+  booktitle = 	 {Proceedings of the 34th International Conference on Machine Learning},
+  pages = 	 {1742--1751},
+  year = 	 {2017},
+  editor = 	 {Doina Precup and Yee Whye Teh},
+  volume = 	 {70},
+  series = 	 {Proceedings of Machine Learning Research},
+  address = 	 {International Convention Centre, Sydney, Australia},
+  month = 	 {06--11 Aug},
+  publisher = 	 {PMLR},
+  pdf = 	 {http://proceedings.mlr.press/v70/jitkrittum17a/jitkrittum17a.pdf},
+  url = 	 {http://proceedings.mlr.press/v70/jitkrittum17a.html},
+  abstract = 	 {A new computationally efficient dependence measure, and an adaptive statistical test of independence, are proposed. The dependence measure is the difference between analytic embeddings of the joint distribution and the product of the marginals, evaluated at a finite set of locations (features). These features are chosen so as to maximize a lower bound on the test power, resulting in a test that is data-efficient, and that runs in linear time (with respect to the sample size n). The optimized features can be interpreted as evidence to reject the null hypothesis, indicating regions in the joint domain where the joint distribution and the product of the marginals differ most. Consistency of the independence test is established, for an appropriate choice of features. In real-world benchmarks, independence tests using the optimized features perform comparably to the state-of-the-art quadratic-time HSIC test, and outperform competing O(n) and O(n log n) tests.}
+}
+
+
+@InProceedings{pmlr-v70-gilmer17a,
+  title = 	 {Neural Message Passing for Quantum Chemistry},
+  author = 	 {Justin Gilmer and Samuel S. Schoenholz and Patrick F. Riley and Oriol Vinyals and George E. Dahl},
+  booktitle = 	 {Proceedings of the 34th International Conference on Machine Learning},
+  pages = 	 {1263--1272},
+  year = 	 {2017},
+  editor = 	 {Doina Precup and Yee Whye Teh},
+  volume = 	 {70},
+  series = 	 {Proceedings of Machine Learning Research},
+  address = 	 {International Convention Centre, Sydney, Australia},
+  month = 	 {06--11 Aug},
+  publisher = 	 {PMLR},
+  pdf = 	 {http://proceedings.mlr.press/v70/gilmer17a/gilmer17a.pdf},
+  url = 	 {http://proceedings.mlr.press/v70/gilmer17a.html},
+  abstract = 	 {Supervised learning on molecules has incredible potential to be useful in chemistry, drug discovery, and materials science. Luckily, several promising and closely related neural network models invariant to molecular symmetries have already been described in the literature. These models learn a message passing algorithm and aggregation procedure to compute a function of their entire input graph. At this point, the next step is to find a particularly effective variant of this general approach and apply it to chemical prediction benchmarks until we either solve them or reach the limits of the approach. In this paper, we reformulate existing models into a single common framework we call Message Passing Neural Networks (MPNNs) and explore additional novel variations within this framework. Using MPNNs we demonstrate state of the art results on an important molecular property prediction benchmark; these results are strong enough that we believe future work should focus on datasets with larger molecules or more accurate ground truth labels.}
+}
+
+
+@InProceedings{pmlr-v70-oglic17a,
+  title = 	 {{N}ystr{\"o}m Method with Kernel K-means++ Samples as Landmarks},
+  author = 	 {Dino Oglic and Thomas G{\"a}rtner},
+  booktitle = 	 {Proceedings of the 34th International Conference on Machine Learning},
+  pages = 	 {2652--2660},
+  year = 	 {2017},
+  editor = 	 {Doina Precup and Yee Whye Teh},
+  volume = 	 {70},
+  series = 	 {Proceedings of Machine Learning Research},
+  address = 	 {International Convention Centre, Sydney, Australia},
+  month = 	 {06--11 Aug},
+  publisher = 	 {PMLR},
+  pdf = 	 {http://proceedings.mlr.press/v70/oglic17a/oglic17a.pdf},
+  url = 	 {http://proceedings.mlr.press/v70/oglic17a.html},
+  abstract = 	 {We investigate, theoretically and empirically, the effectiveness of kernel K-means++ samples as landmarks in the Nyström method for low-rank approximation of kernel matrices. Previous empirical studies (Zhang et al., 2008; Kumar et al.,2012) observe that the landmarks obtained using (kernel) K-means clustering define a good low-rank approximation of kernel matrices. However, the existing work does not provide a theoretical guarantee on the approximation error for this approach to landmark selection. We close this gap and provide the first bound on the approximation error of the Nyström method with kernel K-means++ samples as landmarks. Moreover, for the frequently used Gaussian kernel we provide a theoretically sound motivation for performing Lloyd refinements of kernel K-means++ landmarks in the instance space. We substantiate our theoretical results empirically by comparing the approach to several state-of-the-art algorithms.}
+}
+
