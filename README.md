@@ -33,3 +33,28 @@ The links here are to papers that I have determined are relevant to our class. I
 * I. E.-H. Yen, W.-C. Lee, S.-E. Chang, A. S. Suggala, S.-D. Lin, and P. Ravikumar.  
 [**Latent Feature Lasso**](http://proceedings.mlr.press/v70/yen17a.html). Proceedings of the 34th International Conference on Machine Learning, Proceedings of Machine Learning Research, 70, 3949--3957, 2017.
 
+## AISTATS 2017
+
+* I. Alabdulmohsin.  
+[**An Information-Theoretic Route from Generalization in Expectation to Generalization in Probability**](http://proceedings.mlr.press/v54/alabdulmohsin17a.html). Proceedings of the 20th International Conference on Artificial Intelligence and Statistics, Proceedings of Machine Learning Research, 54, 92--100, 2017.
+* S. Bahmani and J. Romberg.  
+[**Phase Retrieval Meets Statistical Learning Theory: A Flexible Convex Relaxation**](http://proceedings.mlr.press/v54/bahmani17a.html). Proceedings of the 20th International Conference on Artificial Intelligence and Statistics, Proceedings of Machine Learning Research, 54, 252--260, 2017.
+* S. Kpotufe.  
+[**Lipschitz Density-Ratios, Structured Data, and Data-driven Tuning**](http://proceedings.mlr.press/v54/kpotufe17a.html). Proceedings of the 20th International Conference on Artificial Intelligence and Statistics, Proceedings of Machine Learning Research, 54, 1320--1328, 2017.
+* T. Lattimore and C. Szepesvari.  
+[**The End of Optimism? An Asymptotic Analysis of Finite-Armed Linear Bandits**](http://proceedings.mlr.press/v54/lattimore17a.html). Proceedings of the 20th International Conference on Artificial Intelligence and Statistics, Proceedings of Machine Learning Research, 54, 728--737, 2017.
+* T. Li, X. Yi, C. Carmanis, and P. Ravikumar.  
+[**Minimax Gaussian Classification \& Clustering**](http://proceedings.mlr.press/v54/li17a.html). Proceedings of the 20th International Conference on Artificial Intelligence and Statistics, Proceedings of Machine Learning Research, 54, 1--9, 2017.
+* N. Mehta.  
+[**Fast rates with high probability in exp-concave statistical learning**](http://proceedings.mlr.press/v54/mehta17a.html). Proceedings of the 20th International Conference on Artificial Intelligence and Statistics, Proceedings of Machine Learning Research, 54, 1085--1093, 2017.
+* A. Moscovich, A. Jaffe, and N. Boaz.  
+[**Minimax-optimal semi-supervised regression on unknown manifolds**](http://proceedings.mlr.press/v54/moscovich17a.html). Proceedings of the 20th International Conference on Artificial Intelligence and Statistics, Proceedings of Machine Learning Research, 54, 933--942, 2017.
+* R. Sankaran, F. Bach, and C. Bhattacharya.  
+[**Identifying Groups of Strongly Correlated Variables through Smoothed Ordered Weighted $L_1$-norms**](http://proceedings.mlr.press/v54/sankaran17a.html). Proceedings of the 20th International Conference on Artificial Intelligence and Statistics, Proceedings of Machine Learning Research, 54, 1123--1131, 2017.
+* H. Sasaki, T. Kanamori, and M. Sugiyama.  
+[**Estimating Density Ridges by Direct Estimation of Density-Derivative-Ratios**](http://proceedings.mlr.press/v54/sasaki17a.html). Proceedings of the 20th International Conference on Artificial Intelligence and Statistics, Proceedings of Machine Learning Research, 54, 204--212, 2017.
+* J. Scarlett and V. Cevher.  
+[**Lower Bounds on Active Learning for Graphical Model Selection**](http://proceedings.mlr.press/v54/scarlett17a.html). Proceedings of the 20th International Conference on Artificial Intelligence and Statistics, Proceedings of Machine Learning Research, 54, 55--64, 2017.
+* A. Zimin and C. Lampert.  
+[**Learning Theory for Conditional Risk Minimization**](http://proceedings.mlr.press/v54/zimin17a.html). Proceedings of the 20th International Conference on Artificial Intelligence and Statistics, Proceedings of Machine Learning Research, 54, 213--222, 2017.
+
