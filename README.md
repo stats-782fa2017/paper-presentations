@@ -4,8 +4,6 @@ The links here are to papers that I have determined are relevant to our class. I
 
 ## ICML 2017
 
-* J. Gilmer, S. S. Schoenholz, P. F. Riley, O. Vinyals, and G. E. Dahl.  
-[**Neural Message Passing for Quantum Chemistry**](http://proceedings.mlr.press/v70/gilmer17a.html). Proceedings of the 34th International Conference on Machine Learning, Proceedings of Machine Learning Research, 70, 1263--1272, 2017.
 * W. Jitkrittum, Z. Szabó, and A. Gretton.  
 [**An Adaptive Test of Independence with Analytic Kernel Embeddings**](http://proceedings.mlr.press/v70/jitkrittum17a.html). Proceedings of the 34th International Conference on Machine Learning, Proceedings of Machine Learning Research, 70, 1742--1751, 2017.
 * S. Kale, Z. Karnin, T. Liang, and D. Pál.  
